@@ -11,7 +11,7 @@ Hackish VoIP/RTC MOS estimation using a kNN classifier
 **kNN** stands for *k-Nearest-Neighbours*, which is a Supervised machine learning algorithm used for classification, determining the class of a data point based on the maximum number of neighbors the data point has belonging to the same class.
 
 #### Dataset Warning
-In this example, a fictional Data set is provided for trainig ml.js KNN module using various combinations of Packet Loss, Jitter and Round-Trip-Tip measurements and their resulting MOS rank in class 1-4. This dataset is oversimplifies, purely illustrative for educational purpose and does _not_ necessarily represent actual conditions.
+In this example, a fictional Data set is provided for trainig ml.js KNN module using various combinations of Packet Loss, Jitter and Round-Trip-Tip measurements and their resulting MOS rank in class 1-4. This dataset is oversimplified, purely illustrative for educational purposes and does _not_ necessarily represent actual conditions.
 
 
 ## Examples
