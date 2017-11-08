@@ -17,19 +17,19 @@ In this example, a fictional Data set is provided for trainig ml.js KNN module u
 ## Examples
 #### Optimal Values
 ```
-prompt: Lost%/10:  0.0
-prompt: Jitter/100:  0.5
-prompt: RTT/100:  1.0
-prompt: CodecType:  0
+prompt: Lost%/10:  0.0 (0%0
+prompt: Jitter/100:  0.5 (50ms)
+prompt: RTT/100:  1.0 (100ms)
+prompt: CodecType:  0 (PCMU)
 With 0,0.5,1,0 -- type =  MOS4
 ```
 
 #### High Packet Loss (50%)
 ```
-prompt: Lost%/10:  0.5
-prompt: Jitter/100:  1.0
-prompt: RTT/100:  1.0
-prompt: CodecType:  0
+prompt: Lost%/10:  0.5 (50%)
+prompt: Jitter/100:  1.0 (100ms)
+prompt: RTT/100:  1.0 (100ms)
+prompt: CodecType:  0 (PCMU)
 With 0.5,1,1,0 -- type =  MOS1
 ```
 -----------------
