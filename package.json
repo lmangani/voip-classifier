@@ -1,0 +1,33 @@
+{
+  "name": "mos-classifier",
+  "version": "0.0.1",
+  "description": "MOS Classifier based on Packet Loss, Jitter, RTT",
+  "main": "mos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmangani/mos-classifier.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mos",
+    "jitter",
+    "rtt",
+    "loss",
+    "neural",
+    "classifier"
+  ],
+  "author": "Lorenzo Mangani <lorenzo.mangani@gmail.com> (http://qxip.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lmangani/mos-classifier/issues"
+  },
+  "homepage": "https://github.com/lmangani/mos-classifier#readme",
+  "dependencies": {
+    "csvtojson": "^1.1.9",
+    "ml-knn": "^2.1.3",
+    "prompt": "^1.0.0"
+  }
+}
